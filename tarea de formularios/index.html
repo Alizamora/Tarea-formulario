@@ -1,0 +1,49 @@
+<html>
+    <head> <title> Tarea de formularios</title></head>
+    <body>
+        <h3>Información sobre el producto</h3>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Datos básicos </legend>
+                <label for="Nombre">Nombre</label> </br>
+                <input type="text" name="Nombre" id="Nombre" value="">
+
+                </br></br>
+
+                <label for="descripcion">Descripción</label> </br>
+                <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+
+                </br></br>
+
+                <label for="foto">Foto</label>
+                <input type="file" name="foto">
+
+                </br></br>
+
+                <input type="checkbox" name="contador de visitas" id="contador de visitas"> Añadir contador de visitas
+            </fieldset>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="precio">Precio</label>
+                <input type="text" value="">&euro;
+
+                <label for="Impuestos">Impuestos</label>
+                <select name="Impuestos" id="Impuestos">
+                    <option value="">%</option>
+                    <option value="4%">4%</option>
+                    <option value="7%">7%</option>
+                    <option value="16%">16%</option>
+                    <option value="25%">25%</option>
+                </select>
+
+                </br></br>
+
+                <label for="Promoción">Promoción</label> </br>
+                <input type="radio" name="Promoción" value="Ninguno">Ninguno </br>
+                <input type="radio" name="Promoción" value="Transporte gratuito">Transporte gratuito </br>
+                <input type="radio" name="Promoción" value="Descuento 5%">Descuento 5% </br>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
